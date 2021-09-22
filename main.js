@@ -11191,6 +11191,7 @@ Game.Launch=function()
 		/*=====================================================================================
 		GRANDMAPOCALYPSE
 		=======================================================================================*/
+		function Game.OpenSesame()
 		Game.UpdateGrandmapocalypse=function()
 		{
 			if (Game.Has('Elder Covenant') || Game.Objects['Grandma'].amount==0) Game.elderWrath=0;
