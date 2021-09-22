@@ -11191,6 +11191,7 @@ Game.Launch=function()
 		/*=====================================================================================
 		GRANDMAPOCALYPSE
 		=======================================================================================*/
+		
 		Game.UpdateGrandmapocalypse=function()
 		{
 			if (Game.Has('Elder Covenant') || Game.Objects['Grandma'].amount==0) Game.elderWrath=0;
@@ -13687,6 +13688,7 @@ window.onload=function()
 				'Hey, Orteil here. Cheated cookies taste awful... or do they?',
 			])+' ===]');
 			Game.Load();
+			function Game.OpenSesame()
 			//try {Game.Load();}
 			//catch(err) {console.log('ERROR : '+err.message);}
 		}
